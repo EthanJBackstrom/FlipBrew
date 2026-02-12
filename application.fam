@@ -1,0 +1,14 @@
+App(
+    appid="coffee_timer",
+    name="BrewFlip",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="coffee_timer_main",
+    stack_size=4 * 1024,
+    fap_category="Tools",
+    fap_icon="coffee_timer.png",
+    fap_icon_assets="images",
+    fap_author="Ethan",
+    fap_version="2.0",
+    fap_description="Coffee brew timer!",
+    requires=["gui", "storage", "notification"],
+)
